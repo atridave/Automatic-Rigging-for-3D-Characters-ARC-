@@ -5,12 +5,12 @@
     <ProjectGuid>beebd62c-4b4f-4a91-be08-cc14589f4909</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>ArcLoder.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <SearchPath>..\..\..\..\..\..\..\Program Files\Autodesk\Maya2017\devkit\other\pymel\extras\completion\py</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>ArcLoder</Name>
     <RootNamespace>ArcLoder</RootNamespace>
+    <InterpreterId>Global|VisualStudio|maya2017</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +22,53 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ArcLoder.py" />
+    <Compile Include="armRig.py" />
+    <Compile Include="backUp_Exporter.py" />
+    <Compile Include="cigWaponRig.py" />
+    <Compile Include="connectAimTarget.py" />
+    <Compile Include="CurveOperation.py" />
+    <Compile Include="DailyTool.py" />
+    <Compile Include="export_dave.py" />
+    <Compile Include="faceSet.py" />
+    <Compile Include="fbxJntChacker.py" />
+    <Compile Include="fileManagment\fileOperation.py" />
+    <Compile Include="fileManagment\__init__.py" />
+    <Compile Include="findFiles.py" />
+    <Compile Include="footAnchoringSetup.py" />
+    <Compile Include="HikChrFixer.py" />
+    <Compile Include="isoHeadCam.py" />
+    <Compile Include="jointOperation.py" />
+    <Compile Include="kinematics.py" />
+    <Compile Include="Loder.py" />
+    <Compile Include="pythonTest.py" />
+    <Compile Include="ragdoll.py" />
+    <Compile Include="replaceReference.py" />
+    <Compile Include="rigMaker.py" />
+    <Compile Include="rigTemplate\twoChainJoint\localCk.py" />
+    <Compile Include="rigTemplate\twoChainJoint\lodingCheck.py" />
+    <Compile Include="rigTemplate\twoChainJoint\__init__.py" />
+    <Compile Include="rigTemplate\__init__.py" />
+    <Compile Include="spineRig.py" />
+    <Compile Include="test.py" />
+    <Compile Include="testUI.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|maya2017" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fileManagment\" />
+    <Folder Include="rigTemplate\" />
+    <Folder Include="rigTemplate\bipadLeg\" />
+    <Folder Include="rigTemplate\twoChainJoint\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="rigTemplate\bipadLeg\bipadLeg.ma" />
+    <Content Include="rigTemplate\spine.ma" />
+    <Content Include="rigTemplate\twoChainJoint\ClavicalTwoChainArm.ma" />
+    <Content Include="rigTemplate\twoChainJoint\head.ma" />
+    <Content Include="rigTemplate\twoChainJoint\twoChainArm.ma" />
+    <Content Include="rigTemplate\twoChainJoint\twoChainJoint.ma" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
