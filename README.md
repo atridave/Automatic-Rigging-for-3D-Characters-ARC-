@@ -31,4 +31,4 @@ The key for Rigging any skeleton is to find out
 Bone numbers , placement & function of
 skeleton .
 
-<iframe src="https://player.vimeo.com/video/83483322" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[![Automatic Rigging for 3D Characters](http://i.imgur.com/5xuzOcR.png)](https://vimeo.com/83483322 "Automatic Rigging for 3D Characters in process - Click to Watch!")
